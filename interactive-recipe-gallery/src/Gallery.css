@@ -1,0 +1,42 @@
+/* src/Gallery.css */
+body {
+    background-color: #fff3e6;
+    color: #333; /* Soft dark color for text */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .gallery-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gallery-img {
+    max-width: 80%; 
+    height: auto;
+    border: 5px solid #ffdd99; /* Light yellow border */
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+  }
+  
+  .description {
+    margin: 10px 0;
+    color: #0056b3; /* Soft blue for text */
+    font-size: 16px; /* Adjust text size for readability */
+  }
+  
+  .button {
+    background-color: #ffcccc; /* Light red */
+    color: #333;
+    border: 1px solid #ffaaaa; /* Light border for buttons */
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Make text bold for better visibility */
+  }
+  
+  .button:hover {
+    background-color: #ffb3b3; 
+    border-color: #ff9999;
+  }
+  
